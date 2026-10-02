@@ -1,0 +1,16 @@
+{
+  "name": "VYBE — إكسسوارات تغيّر اللعبة",
+  "short_name": "VYBE",
+  "description": "ساعات ذكية، سماعات، وإكسسوارات موبايل على ذوقك.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1f1c",
+  "theme_color": "#0b1f1c",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,5 @@
+- Keep the project a front-end-only Vite + React SPA (no server or SSR) because the site is a static storefront.
+- Keep the home page as one scrolling narrative; other pages (`/products`, `/services`, `/about`, `/contact`, `/product/:id`) are routed in `src/App.tsx` via the tiny router in `src/lib/router.ts` rather than a routing library.
+- Keep content in `src/data/` (`products.ts` for products/options, `site.ts` for nav, services, FAQ, values, Instagram) so content edits never touch components.
+- Keep scroll-driven Three.js graphics isolated in a lazily-imported component (home page only) so the 3D bundle does not block first paint.
+- Keep the cart as an in-session inquiry list rather than inventing prices or a checkout integration without real business details.
